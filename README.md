@@ -88,12 +88,11 @@ Search for their possible combination. Investigation of the influence of the dep
 #### Generalization of the QAOA task to create a service available to users
 #####  made by Konstantin
 <div>
-In notebook calccost.ipynb, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
+In notebook <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb'>calccost.ipynb</a>, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
 </div>
-<a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb'>calccost.ipynb</a>
 
 <div>
-In notebook Optimization_pipeline.ipynb 
+In notebook <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/Optimization_pipeline.ipynb'>Optimization_pipeline.ipynb</a>
 </div>
 <div>
 The QUBO problem is formulated as a classical weight matrix problem. Auxiliary algorithms for working with the weight matrix have been implemented. Such as shuffling the weight matrix, dividing the weight matrix into parts. This will reduce the size of the QUBO problem.
@@ -104,7 +103,6 @@ The QUBO problem is formulated as a classical weight matrix problem. Auxiliary a
 - Running the algorithm on an arbitrary backend.
 - Processing the results of the algorithm
 
-- [Optimization_pipeline.ipynb](https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/Optimization_pipeline.ipynb)
 
 
 
