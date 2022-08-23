@@ -79,18 +79,26 @@ def create_edges(M):
             if M[i][j] != 0:
                 edges.append((i,j))
     return edges        
-def create_color_map(size):
+def create_color_map(size, result = []):
     v = ['red' for i in range(size)]
+    if len(result) == 0:
+        return v
+    for i in range(size):
+        if result[i] == 1:
+            v[i] = 'blue'
     return v
+
 def create_graph(M):
     g = nx.Graph()
     
     g.add_nodes_from(create_vector_nodes(len(M)))
     g.add_edges_from(create_edges(M))
     return g
-def draw_graph(g):
-    color_map = create_color_map(len(g.nodes))
+
+def draw_graph(g, result=[]):
+    color_map = create_color_map(len(g.nodes), result)
     nx.draw(g, node_color=color_map, with_labels=True, alpha=0.8, node_size=500)
+
 def slit_graph(M, size):
     listW = split_matrix(M, size)
     fig, axes = plt.subplots(nrows=1, ncols=len(listW),figsize=(12,5))
@@ -148,6 +156,7 @@ class AlgoritmQAOA:
     #constructor
     def __init__(self, M, reps=None, optimizer=None, q_i=None):
         self.problem = create_qubo_problem(M)
+        self.W = M
         seed = 1234
         algorithm_globals.random_seed = seed
         if q_i == None:
@@ -209,3 +218,14 @@ def plot_value(res):
 
     plt.bar(vr.keys(), vr.values(), width, color='b')
     plt.show()
+
+def draw_graph_solution(alg):
+    gr = create_graph(alg.W)
+    s = alg.result.get_solutions()
+    l = 5
+    if l > len(s):
+        l = len(s)
+    fig, axes = plt.subplots(nrows=1, ncols=l,figsize=(20,7))
+    for i in range(0, l):
+        plt.subplot(1, l+1, i+1)
+        draw_graph(create_graph(gr), s[i])
