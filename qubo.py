@@ -228,4 +228,5 @@ def draw_graph_solution(alg):
     fig, axes = plt.subplots(nrows=1, ncols=l,figsize=(20,7))
     for i in range(0, l):
         plt.subplot(1, l+1, i+1)
+        plt.title(alg.result.x_to_str(s[i]))
         draw_graph(create_graph(gr), s[i])
