@@ -82,9 +82,13 @@ As part of the hackathon, research was carried out on the possibility of creatin
 - Generalization of the QAOA problem to create a service available to users
 #### Applying the Algorithm to the Unit Commitment Practical Task
 #####  made by Afrah
+
+
 #### Investigation of the relationship between quantum and classical algorithms. 
 #####  made by Oxana
-Search for business relevant cases, that be of interest for QC investors. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution.
+
+Search for business relevant cases, that be of interest for QC investors. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution in notebooks  <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost_for_different_depths.ipynb'> and  <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/QUBO_cost_solve_with_different_depths(2).ipynb'>
+
 #### Generalization of the QAOA problem to create a service available to users
 #####  made by Konstantin
 <div>
