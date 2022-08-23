@@ -27,7 +27,7 @@ Make the QUBO algorithm available for research and use, available for business
 <div>
 Quantum computers make it possible to find a fairly good solution to this problem. But there are limitations on the use of quantum computers to solve it.
 </div>
-#### Problem
+### Problem
 <div>
 1. A small number of qubits, which limits the size of the problem that can be solved.
 </div>
@@ -89,8 +89,9 @@ Search for their possible combination. Investigation of the influence of the dep
 #####  made by Konstantin
 <div>
 In notebook calccost.ipynb, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
-- [calccost.ipynb](https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb)
 </div>
+- [calccost.ipynb](https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb)
+
 <div>
 In notebook Optimization_pipeline.ipynb 
 </div>
@@ -102,9 +103,8 @@ The QUBO problem is formulated as a classical weight matrix problem. Auxiliary a
 - The algorithm for constructing a circuit of arbitrary depth is implemented, depending on the parameter p.
 - Running the algorithm on an arbitrary backend.
 - Processing the results of the algorithm
-<div>
+
 - [Optimization_pipeline.ipynb](https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/Optimization_pipeline.ipynb)
-</div>
 
 
 
