@@ -11,6 +11,7 @@ from qiskit.algorithms.optimizers import SPSA
 from qiskit.circuit.library.n_local.qaoa_ansatz import QAOAAnsatz
 from qiskit_optimization.algorithms import MinimumEigenOptimizer
 from qiskit import QuantumCircuit
+import matplotlib.pyplot as plt
 
 
 
@@ -194,3 +195,17 @@ class AlgoritmQAOA:
         return self.result
 
         
+def plot_value(res):
+    vr = dict(sorted(res.items()))
+
+    pos = np.arange(len(vr.keys()))
+    width = 0.5     # gives histogram aspect to the bar diagram
+
+    ax = plt.axes()
+    ax.set_xticks(pos + (width / 2))
+    ax.set_xticklabels(vr.keys())
+    labels = ax.get_xticklabels()
+    plt.setp(labels, rotation=45, horizontalalignment='right')
+
+    plt.bar(vr.keys(), vr.values(), width, color='b')
+    plt.show()
