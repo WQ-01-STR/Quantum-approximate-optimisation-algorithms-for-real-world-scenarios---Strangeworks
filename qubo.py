@@ -193,6 +193,7 @@ class AlgoritmQAOA:
         sv_reps = self.reps;
         self.set_reps(reps)
         qc = self.ansatz
+        qc.measure_all()
         self.set_reps(sv_reps)
         return qc
     #solve problem     
