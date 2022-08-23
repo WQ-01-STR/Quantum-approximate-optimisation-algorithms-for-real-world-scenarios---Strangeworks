@@ -22,12 +22,12 @@ Womanium Quantum Hackathon 2022
 ###  Command target in challenge
 Make the QUBO algorithm available for research and use, available for business
 <div>
-  Quadratic unconstrained binary optimization (QUBO), also known as unconstrained binary quadratic programming (UBQP), is a combinatorial optimization problem with a wide range of applications from finance and economics to machine learning.[1] QUBO is an NP hard problem, and for many classical problems from theoretical computer science, like maximum cut, graph coloring and the partition problem, embeddings into QUBO have been formulated.
+  Quadratic unconstrained binary optimization (QUBO), also known as unconstrained binary quadratic programming (UBQP), is a combinatorial optimization problem with a wide range of applications from finance and economics to machine learning. QUBO is an NP hard problem, and for many classical problems from theoretical computer science, like maximum cut, graph coloring and the partition problem, embeddings into QUBO have been formulated.
 </div>
 <div>
 Quantum computers make it possible to find a fairly good solution to this problem. But there are limitations on the use of quantum computers to solve it.
 </div>
-### Problem
+<h3> Problem </h3>
 <div>
 1. A small number of qubits, which limits the size of the problem that can be solved.
 </div>
