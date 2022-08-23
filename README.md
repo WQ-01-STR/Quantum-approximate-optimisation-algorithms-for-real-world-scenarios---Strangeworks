@@ -90,7 +90,7 @@ Search for their possible combination. Investigation of the influence of the dep
 <div>
 In notebook calccost.ipynb, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
 </div>
-- [calccost.ipynb](https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb)
+<a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb'>calccost.ipynb</a>
 
 <div>
 In notebook Optimization_pipeline.ipynb 
