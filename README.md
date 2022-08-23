@@ -90,6 +90,10 @@ Search for their possible combination. Investigation of the influence of the dep
 <div>
 In notebook <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb'>calccost.ipynb</a>, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
 </div>
+<div>
+  Moved code to <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/costdc.py'>costdc.py<a> for reuse
+</div>
+
 
 <div>
 In notebook <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/Optimization_pipeline.ipynb'>Optimization_pipeline.ipynb</a>
@@ -103,6 +107,13 @@ The QUBO problem is formulated as a classical weight matrix problem. Auxiliary a
 - Running the algorithm on an arbitrary backend.
 - Processing the results of the algorithm
 
+<div>
+  Moved code to <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/qubo.py'>qubo.py</a> for reuse
+</div>
+<div>
+In the <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/QUBO_cost_solve.ipynb'>QUBO_cost_solve.ipynb</a> notebook
+an example of using objects to calculate the cost and solve the QUBO problem
+</div>
 
 
 
