@@ -8,7 +8,7 @@ Womanium Quantum Hackathon 2022
 ### Oxana
 - DiscordID: 692436681076375703
 - GitHub: https://github.com/AmanieOxana
-- email:
+- email: oxana.shaya@rwth-aachen.de
 ### Afrah
 - DiscordID: 767445621933473802
 - GitHub: https://github.com/afrah
@@ -84,7 +84,7 @@ As part of the hackathon, research was carried out on the possibility of creatin
 #####  made by Afrah
 #### Investigation of the relationship between quantum and classical algorithms. 
 #####  made by Oxana
-Search for their possible combination. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution
+Search for business relevant cases, that be of interest for QC investors. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution.
 #### Generalization of the QAOA problem to create a service available to users
 #####  made by Konstantin
 <div>
