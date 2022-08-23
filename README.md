@@ -79,13 +79,13 @@ As part of the hackathon, research was carried out on the possibility of creatin
 
 - Applying the Algorithm to the Unit Commitment Practical Task
 - Investigation of the relationship between quantum and classical algorithms. 
-- Generalization of the QAOA task to create a service available to users
+- Generalization of the QAOA problem to create a service available to users
 #### Applying the Algorithm to the Unit Commitment Practical Task
 #####  made by Afrah
 #### Investigation of the relationship between quantum and classical algorithms. 
 #####  made by Oxana
 Search for their possible combination. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution
-#### Generalization of the QAOA task to create a service available to users
+#### Generalization of the QAOA problem to create a service available to users
 #####  made by Konstantin
 <div>
 In notebook <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb'>calccost.ipynb</a>, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
