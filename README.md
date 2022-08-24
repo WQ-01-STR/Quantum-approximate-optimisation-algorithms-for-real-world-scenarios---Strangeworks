@@ -81,7 +81,8 @@ As part of the hackathon, research was carried out on the possibility of creatin
 #### Investigation of the relationship between quantum and classical algorithms. 
 #####  made by Oxana
 
-Search for business relevant cases, that be of interest for QC investors. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution in notebooks  <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost_for_different_depths.ipynb'> and  <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/QUBO_cost_solve_with_different_depths(2).ipynb'>
+Search for business relevant cases, that be of interest for QC investors. Investigation of the influence of the depth (parameter p) of the circuit of QAOA on the accuracy of the found optimal solution in notebooks  <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost_for_different_depths.ipynb'>calccost_for_different_depths.ipynb</a> and  <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/QUBO_cost_solve_with_different_depths(2).ipynb'>QUBO_cost_solve_with_different_depths(2).ipynb</a>
+
 
 #### Generalization of the QAOA problem to create a service available to users
 #####  made by Konstantin
@@ -89,7 +90,7 @@ Search for business relevant cases, that be of interest for QC investors. Invest
 In notebook <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/calccost.ipynb'>calccost.ipynb</a>, the calculation of the cost of a quantum circuit is implemented, for various platforms. Platforms differ in the set of basis gates and the cost of their use. This work allows you to evaluate and select the appropriate backend, depending on the number of cubes available and the total cost of executing the algorithm on the backend
 </div>
 <div>
-  Moved code to <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/costdc.py'>costdc.py<a> for reuse
+  Moved code to <a href='https://github.com/WQ-01-STR/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/costdc.py'>costdc.py</a> for reuse
 </div>
 
 
