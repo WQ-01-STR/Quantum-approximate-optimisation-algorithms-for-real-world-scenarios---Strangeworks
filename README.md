@@ -8,7 +8,7 @@ Womanium Quantum Hackathon 2022
 ### Oxana
 - DiscordID: 692436681076375703
 - GitHub: https://github.com/AmanieOxana
-- email: oxana dot shaya at rwth minus aachen dot de
+- email: oxana.shaya@rwth-aachen.de
 ### Konstantin
 - DiscordID: 745906052658364516
 - GitHub: https://github.com/gksmail
