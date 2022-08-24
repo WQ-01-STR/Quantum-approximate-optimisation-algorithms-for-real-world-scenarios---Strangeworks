@@ -9,14 +9,12 @@ Womanium Quantum Hackathon 2022
 - DiscordID: 692436681076375703
 - GitHub: https://github.com/AmanieOxana
 - email: oxana dot shaya at rwth minus aachen dot de
-### Afrah
-- DiscordID: 767445621933473802
-- GitHub: https://github.com/afrah
-- email:
 ### Konstantin
 - DiscordID: 745906052658364516
 - GitHub: https://github.com/gksmail
 - email: kgolovkin@mail.ru
+## Name of the Pitch Presenter on Demo Day.
+Oxana
 ## Name of the Challenge
    Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks
 ###  Command target in challenge
@@ -77,12 +75,8 @@ This will make it possible to widely apply the formulation and solution of the Q
 ### Areas of work
 As part of the hackathon, research was carried out on the possibility of creating such a service.
 
-- Applying the Algorithm to the Unit Commitment Practical Task
 - Investigation of the relationship between quantum and classical algorithms. 
 - Generalization of the QAOA problem to create a service available to users
-#### Applying the Algorithm to the Unit Commitment Practical Task
-#####  made by Afrah
-
 
 #### Investigation of the relationship between quantum and classical algorithms. 
 #####  made by Oxana
